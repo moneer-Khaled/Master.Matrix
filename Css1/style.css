@@ -1,0 +1,62 @@
+* {
+    margin: 10px;
+    padding: 2px;
+}
+
+#container {
+    width: 1000px;
+    background-color: silver;
+    margin: auto;
+}
+
+#header { 
+    height: 150px;
+    background-color: blue;
+}
+#content{
+    margin: 0px;
+    margin-top: -10px;
+    gap: 17px;
+}
+
+#nav_bar {
+    height: 300px;
+    width: 180px;
+    background-color: red;
+    float: left;
+}
+
+#main_content {
+    height: 360px;
+    width: 780px;
+    
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-left: 30px; 
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+.subcontent {
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    margin-right: 31px;
+    margin-bottom: 20px; 
+    margin-left: 15px;
+}
+
+
+
+#advertisements {
+    width: 700px;
+    height: 90px;
+    background-color: pink;
+    text-align: center;
+    line-height: 90px;
+    font-weight: bold;
+    clear: both;
+    margin-left: 15px;
+}
