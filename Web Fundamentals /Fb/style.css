@@ -1,0 +1,254 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.header{
+    background-color: #3b5998;
+    color: white;
+    padding: 10px 20px ;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.login-form form{
+    display: flex;
+    gap: 10px;
+}
+.login-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-field label{
+    font-size: 12px;
+    color: white;
+    margin-bottom: 2px;
+
+}
+
+.login-field input {
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    
+  }
+  .login-button button {
+    background: #4267b2;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 14px;
+    
+  }
+
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin:  auto;
+    
+    
+    background:#dedede;
+  }
+
+  .right-bar {
+    width: 29%;
+    padding: 20px;
+    padding-left: 500px;
+    
+  }
+  
+  .right-bar img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+  }
+  
+  
+
+  .left-bar {
+    
+    padding: 20px;
+    padding-right: 113px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  .left-bar label {
+    display: inline-block;
+    width: 120px;
+    vertical-align: top;
+    margin-top: 8px;
+    font-size: 14px;
+    display: flex;
+  flex-direction: column;
+  }
+  
+  .left-bar strong {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .left-bar p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .left-bar input,
+.left-bar select {
+    display: inline-block;
+    width:10px;
+    margin-bottom: 10px;
+    padding: 6px;
+    
+  
+
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1px;
+  }
+  
+  .form-row label {
+    width: 60px;
+    font-size: 14px;
+
+  }
+  
+  .form-row input,
+  .form-row select {
+    flex:1;
+    padding: 1px;
+    font-size: 15px;
+    margin:10px;
+  }
+  
+
+
+
+.signup-button button {
+  padding: 10px 20px;
+  background-color: #42b72a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.left-bar label[for="re-email"] {
+    line-height: 1.2;
+  }
+
+
+  .left-bar select.month,
+  .left-bar select.Day,
+  .left-bar select.Year {
+    width: 30%;
+    margin-right: 1%;
+    
+  }
+  .left-bar a {
+    text-decoration: none;
+  }
+
+.signup-button button:hover {
+  background-color: #36a420;
+}
+
+
+.short-line {
+    margin-top: 20px;
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+  }
+  
+
+
+
+  .create {
+    font-size: 13px;
+    color: #666;
+    margin-top: 15px;
+  }
+  
+  .create a {
+    text-decoration: none;
+    color: #385898;
+  }
+
+
+  footer.details {
+    background-color: white;
+    padding: 20px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+  }
+  
+ 
+  .language-footer {
+    margin-bottom: 10px;
+  }
+  
+  .language-footer a {
+    margin: 0 8px;
+    
+    text-decoration: none;
+  }
+  
+  .language-footer a:hover {
+    text-decoration: underline;
+  }
+  
+ 
+  .footer-line {
+    margin: 15px 0;
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+  }
+  
+
+  .meta-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    line-height: 1.6;
+  }
+  
+  .meta-links a {
+    
+    text-decoration: none;
+  }
+  
+  .meta-links a:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  
